@@ -1,0 +1,224 @@
+/***** Last Adjustments******/
+.test > .yoni .yyyyy {
+  bottom: -8px;
+  opacity: 1; }
+
+/****** 4. About ***************************************************************/
+#about {
+  background-color: #e9f0f2;
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+
+.circle-icon-lg {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #09b8ed;
+  position: relative; }
+  .circle-icon-lg :before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    background-color: #09b8ed;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transition-property: top, bottom, left, right;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-property: top, bottom, left, right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out; }
+  .circle-icon-lg :hover:before {
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px; }
+
+#about .col-lg-3:hover .circle-icon-lg:before {
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px; }
+
+#about .col-lg-3 .text {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: 0; }
+
+#about .col-lg-3:hover .text {
+  top: 5px; }
+
+.circle-icon-lg .icon {
+  color: #fff;
+  line-height: 140px;
+  text-align: center; }
+
+.circle-icon-lg {
+  position: relative;
+  top: -4px; }
+
+#about p {
+  margin-top: 12px; }
+
+/****** 6. Detailed Info ***************************************************************/
+#detailed {
+  background-color: #e9f0f2;
+  position: relative;
+  z-index: 1; }
+  #detailed h2 {
+    text-align: left; }
+    #detailed h2 :after {
+      margin-left: 0; }
+  #detailed .subtitle {
+    margin-left: 0;
+    text-align: left; }
+  #detailed .icon {
+    color: #09b8ed; }
+  #detailed .img {
+    margin: -210px 0 -50px; }
+
+/**********************
+******5. Features****
+**********************/
+#features h4 {
+  color: #f56857;
+  margin-top: 0; }
+
+#features .col-sm-4.left {
+  text-align: right; }
+
+#features .col-lg-4 .row {
+  margin-top: 46px;
+  position: relative;
+  left: 0;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s; }
+
+#features .left .row:hover {
+  left: -5px; }
+
+#features .right .row:hover {
+  left: 5px; }
+
+.circle-icon-rspv {
+  width: 100%; }
+  .circle-icon-rspv :after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    padding-bottom: calc(100% - 4px);
+    border: 2px solid #f56857;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .circle-icon-rspv .icon {
+    float: left;
+    width: 100%;
+    padding-top: 50%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #f56857;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .circle-icon-rspv :hover:after {
+    background-color: #f56857; }
+  .circle-icon-rspv :hover .icon {
+    color: #fff; }
+
+#features .left > .row:hover .circle-icon-rspv:after, #features .right > .row:hover .circle-icon-rspv:after {
+  background-color: #f56857; }
+
+#features .left > .row:hover .icon, #features .right > .row:hover .icon {
+  color: #fff; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Lato Hairline"), local("Lato-Hairline"), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIFvxabc8-Ua_u_bDyl2V6ao.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F; }
+
+/* cyrillic */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwII_1JgVyIQZ7vlaYT5eo8zo.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIJpID8tihKRMKfpfDQ5OzSE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Merriweather Light Italic"), local("Merriweather-LightItalic"), url(http://fonts.gstatic.com/s/merriweather/v13/EYh7Vl4ywhowqULgRdYwIHM1hBkL4m68a-ReB_y0NYc.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }

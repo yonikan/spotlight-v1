@@ -1,10 +1,12 @@
 
 /***** Last Adjustments******/
 
-.test>.yoni {
+.test>.yoni .yyyyy{
     bottom: -8px;
     opacity: 1;
 }
+
+
 
 
 
@@ -17,7 +19,8 @@
 // @import "pages/body";
 // @import "pages/menu";
 // @import "pages/header-footer";
-// @import "pages/sections";
+@import "pages/sections";
 // @import "pages/media-queries";
 //
-// @import "partials/css";
+@import "partials/css";
+// @import "partials/reset";
