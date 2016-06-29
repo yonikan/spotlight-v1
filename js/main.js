@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
 	// background Strech -----------------------------------------------
-	// $(".banner-image").backstretch('../dist/img/backs/orange-back.jpg');
+	// $(".banner-image").backstretch('../dist/img/backs/back-blue1.jpg');
 
 	// wow.js initialization
   var myWindow = $(window)

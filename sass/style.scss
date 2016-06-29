@@ -1,16 +1,9 @@
 
 
-.test>.yoni .yyyyy{
-    bottom: -8px;
-    opacity: 1;
-}
-
-
-
 @import "main";
-
 @import "navigation";
 
-@import "banner";
-
-// @import "contact";
+@import "section-banner";
+@import "section-services";
+@import "section-howto";
+@import "section-contact";
