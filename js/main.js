@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+
+	// background Strech -----------------------------------------------
+	// $(".banner-image").backstretch('images/backs/back-blue1.jpg');
+
+	// wow.js initialization
+  var myWindow = $(window)
+	if (myWindow.width()>530) {
+		new WOW().init();
+	};
+
+
+
+
 	// Header Scroll
 	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
@@ -48,10 +62,10 @@ $(document).ready(function() {
 		$(this).toggleClass('close-nav');
 		nav.toggleClass('open');
 		return false;
-	});	
+	});
 	nav.find('a').on('click', function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
-	
+
 });
