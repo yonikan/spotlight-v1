@@ -1,5 +1,4 @@
 
-/***** Last Adjustments******/
 
 .test>.yoni .yyyyy{
     bottom: -8px;
@@ -8,11 +7,10 @@
 
 
 
+@import "main";
 
+@import "navigation";
 
+@import "banner";
 
-@import "new/banner";
-
-// @import "new/contact";
-
-// @import "partials/css";
+// @import "contact";
