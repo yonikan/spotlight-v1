@@ -1,4 +1,7 @@
 /* ------------------------------------------------------------------------------
+	Colors definitions
+-------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
@@ -75,8 +78,6 @@ h5 {
   font-size: 16px;
   font-weight: 600;
   border: 0;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
   border-radius: 2px;
   display: inline-block;
   text-transform: uppercase;
@@ -102,9 +103,6 @@ h5 {
     max-width: 1170px;
     padding: 60px 0;
     width: 100%;
-    -moz-transition: padding 0.3s;
-    -o-transition: padding 0.3s;
-    -webkit-transition: padding 0.3s;
     transition: padding 0.3s; }
   #header .logo {
     float: left;
@@ -445,14 +443,12 @@ form {
 input, textarea {
   width: 439px;
   height: 47px;
-  background: #efefef;
+  background: #fff;
   border: 1px solid #dedede;
   padding: 20px;
   margin-top: 3px;
   font-size: 0.9em;
   color: #3a3a3a;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
   border-radius: 5px; }
 
 input:focus, textarea:focus {
@@ -460,12 +456,13 @@ input:focus, textarea:focus {
 
 textarea {
   height: 213px;
-  background: url(ddd.jpg) right no-repeat #efefef; }
+  background: url(ddd.jpg) right no-repeat #fff; }
 
 #submit {
   width: 127px;
   height: 38px;
-  background: url(dd.jpg) #efefef;
+  background: url(dd.jpg) #3a3a3a;
+  color: #fff;
   border: none;
   margin-top: 20px;
   cursor: pointer; }

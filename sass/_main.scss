@@ -1,5 +1,13 @@
 
 /* ------------------------------------------------------------------------------
+	Colors definitions
+-------------------------------------------------------------------------------*/
+$white: #fff;
+$black: #000;
+$turkiz: #1ABC9C;
+
+
+/* ------------------------------------------------------------------------------
 	Global Styles
 -------------------------------------------------------------------------------*/
 body {
@@ -7,7 +15,6 @@ body {
 	font-weight: 400;
 	color: #6c7279;
 }
-
 a {
 	color: #1ABC9C;
 }
@@ -18,7 +25,6 @@ a:hover, a:focus {
 	// -webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
 }
-
 ul, ol {
 	margin: 0;
 	padding: 0;
@@ -26,6 +32,7 @@ ul, ol {
 ul li {
 	list-style: none;
 }
+
 .section {
 	padding: 100px 0;
 }
@@ -39,7 +46,6 @@ ul li {
 .space {
 	margin-top: 60px;
 }
-
 .backgound-grey {
   background-color: #e9f0f2;
 }
@@ -85,8 +91,8 @@ h5 {
 	font-size: 16px;
 	font-weight: 600;
 	border: 0;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
+	// -moz-border-radius: 2px;
+	// -webkit-border-radius: 2px;
 	border-radius: 2px;
 	display: inline-block;
 	text-transform: uppercase;
@@ -101,11 +107,9 @@ h5 {
 }
 
 
-
 /* ------------------------------------------------------------------------------
 	Header
 -------------------------------------------------------------------------------*/
-
 #header {
 	position: fixed;
 	width: 100%;
@@ -117,9 +121,9 @@ h5 {
 		max-width: 1170px;
 		padding: 60px 0;
 		width: 100%;
-		-moz-transition: padding 0.3s;
-		-o-transition: padding 0.3s;
-		-webkit-transition: padding 0.3s;
+		// -moz-transition: padding 0.3s;
+		// -o-transition: padding 0.3s;
+		// -webkit-transition: padding 0.3s;
 		transition: padding 0.3s;
 	}
 	.logo {
@@ -152,53 +156,3 @@ h5 {
 		}
 	}
 }
-
-
-
-
-
-//
-// #header {
-// 	position: fixed;
-// 	width: 100%;
-// 	z-index: 999;
-// 	background: rgba(255, 255, 255, 0.31);
-//
-// }
-//
-// #header .header-content {
-// 	margin: 0 auto;
-// 	max-width: 1170px;
-// 	padding: 60px 0;
-// 	width: 100%;
-// 	-moz-transition: padding 0.3s;
-// 	-o-transition: padding 0.3s;
-// 	-webkit-transition: padding 0.3s;
-// 	transition: padding 0.3s;
-// }
-//
-// #header .logo {
-// 	float: left;
-// 	font-size:24px;
-// 	font-weight:700;
-// 	color: #000;
-// 	text-decoration:none;
-// 	text-transform:uppercase;
-// 	letter-spacing:7px;
-// }
-//
-//
-// #header.fixed {
-// 	background-color: rgb(44, 62, 80);
-// }
-// #header.fixed a {
-// 	color: #fff;
-// }
-// #header.fixed .header-content {
-// 	border-bottom: 0;
-// 	padding: 25px 0;
-// }
-// #header.fixed .nav-toggle {
-// 	top: 18px;
-// 	color: #000;
-// }
